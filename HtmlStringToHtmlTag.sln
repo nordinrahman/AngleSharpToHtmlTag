@@ -1,12 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngleSharpToHtmlTag", "AngleSharpToHtmlTag\AngleSharpToHtmlTag.csproj", "{92AE9EF5-4A3F-4C42-97AB-394429AD983D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngleSharpToHtmlTag.Test", "AngleSharpToHtmlTag.Test\AngleSharpToHtmlTag.Test.csproj", "{FA09A92D-5F6D-424C-A53A-DE0A4CCB35C7}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2C5D9028-23FF-4897-9FDB-3CA5359A14D1}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
@@ -18,6 +14,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		readme.md = readme.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlStringToHtmlTag", "AngleSharpToHtmlTag\HtmlStringToHtmlTag.csproj", "{92AE9EF5-4A3F-4C42-97AB-394429AD983D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlStringToHtmlTag.Test", "AngleSharpToHtmlTag.Test\HtmlStringToHtmlTag.Test.csproj", "{FA09A92D-5F6D-424C-A53A-DE0A4CCB35C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
